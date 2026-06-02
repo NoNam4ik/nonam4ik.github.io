@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Загадочная страница</title>
+    <style>
+        /* Обнуление базовых отступов */
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Настройка страницы в стиле минимализма с мягким фоновым свечением */
+        body {
+            background-color: #0a0a0a;
+            color: #ffffff;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            position: relative;
+        }
+
+        /* Элемент фонового свечения (размытое белое пятно, создающее глубину) */
+        body::before {
+            content: '';
+            position: absolute;
+            width: 40vw;
+            height: 40vw;
+            min-width: 300px;
+            min-height: 300px;
+            background: radial-gradient(circle, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0) 70%);
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 1;
+            pointer-events: none;
+        }
+
+        /* Контейнер для текста */
+        .container {
+            text-align: center;
+            padding: 20px;
+            z-index: 2;
+            max-width: 600px;
+        }
+
+        /* Стильный минималистичный текст с легкой тенью */
+        .text {
+            font-size: 1.5rem;
+            font-weight: 300;
+            line-height: 1.6;
+            letter-spacing: -0.02em;
+            color: rgba(255, 255, 255, 0.9);
+            text-shadow: 0 0 40px rgba(255, 255, 255, 0.1);
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        /* Точка в конце предложения с акцентным чистым белым свечением */
+        .dot {
+            color: #ffffff;
+            text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px rgba(255, 255, 255, 0.4);
+        }
+
+        /* Плавное появление текста при загрузке страницы */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Адаптивность для мобильных экранов */
+        @media (max-width: 480px) {
+            .text {
+                font-size: 1.2rem;
+                padding: 0 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <p class="text">Эта страница не просто так.. Просто я не решила что тут будет<span class="dot">.</span></p>
+    </div>
+
+</body>
+</html>

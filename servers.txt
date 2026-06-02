@@ -1,0 +1,8 @@
+wss://console.noloverme.xyz:4080
+wss://console.noloverme.sbs:4080
+wss://console2.noloverme.xyz:4080
+wss://console2.noloverme.sbs:4080
+ws://console.noloverme.xyz:4081
+ws://console.noloverme.sbs:4081
+ws://console2.noloverme.xyz:4081
+ws://console2.noloverme.sbs:4081

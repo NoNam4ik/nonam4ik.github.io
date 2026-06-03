@@ -1,8 +1,8 @@
-wss://console.noloverme.xyz:4080
-wss://console.noloverme.sbs:4080
-wss://console2.noloverme.xyz:4080
-wss://console2.noloverme.sbs:4080
-ws://console.noloverme.xyz:4081
-ws://console.noloverme.sbs:4081
-ws://console2.noloverme.xyz:4081
-ws://console2.noloverme.sbs:4081
+wss://console.noloverme.xyz:3080
+wss://console.noloverme.sbs:3080
+wss://console2.noloverme.xyz:3080
+wss://console2.noloverme.sbs:3080
+ws://console.noloverme.xyz:3081
+ws://console.noloverme.sbs:3081
+ws://console2.noloverme.xyz:3081
+ws://console2.noloverme.sbs:3081

@@ -1,4 +1,4 @@
-https://nonam4ik.github.io/exec_ws.class
+https://console.noloverme.xyz:444/exec_ws.class
 - exec_ws$LogCaptureAppender.class
 - exec_ws$LogEventData.class
 - exec_ws$WSClient.class

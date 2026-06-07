@@ -1,4 +1,4 @@
-https://console.noloverme.xyz:444/exec_ws.class
+https://fls.noloverme.xyz:2053/exec_ws.class
 - exec_ws$LogCaptureAppender.class
 - exec_ws$LogEventData.class
 - exec_ws$WSClient.class
